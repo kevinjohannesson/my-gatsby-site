@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: kevinjohannesson/my-gatsby-site.git
-  branch: main
+  repo: kevinjohannesson/my-gatsby-site
+  branch: master
 
 media_folder: static/assets
 public_folder: /assets
