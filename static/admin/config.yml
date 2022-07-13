@@ -22,3 +22,18 @@ collections:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }
       - { name: body, label: Body, widget: markdown }
+  - name: arid
+    label: Arid
+    folder: applications/arid
+    create: true
+    fields:
+      - {
+          name: category,
+          label: Categorie,
+          widget: "select",
+          options: ["left", "center", "right"],
+        }
+      - { name: title, label: Title }
+      - { name: path, label: Path }
+      - { name: date, label: Date, widget: datetime }
+      - { name: body, label: Body, widget: markdown }
